@@ -13,5 +13,5 @@
 #include "opencv2/highgui/highgui.hpp"
 #include <iostream>
 
-void readImageAndDisplay();
+void ReadImageandFileDispaly();
 #endif /* defined(__openctest2__ReadImageandFileDispaly__) */
