@@ -12,6 +12,7 @@
 		88A48CCF1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A48CCD1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib */; };
 		88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD11A5F161700948EF4 /* VideoCapture.cpp */; };
 		88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */; };
+		88A48CDA1A5F326600948EF4 /* ErodingFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD81A5F326600948EF4 /* ErodingFilter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		88A48CD41A5F1A5700948EF4 /* MyPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyPic.png; sourceTree = "<group>"; };
 		88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReadImageandFileDispaly.cpp; sourceTree = "<group>"; };
 		88A48CD61A5F1A8B00948EF4 /* ReadImageandFileDispaly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadImageandFileDispaly.h; sourceTree = "<group>"; };
+		88A48CD81A5F326600948EF4 /* ErodingFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ErodingFilter.cpp; sourceTree = "<group>"; };
+		88A48CD91A5F326600948EF4 /* ErodingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErodingFilter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				88A48CD11A5F161700948EF4 /* VideoCapture.cpp */,
 				88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */,
 				88A48CD61A5F1A8B00948EF4 /* ReadImageandFileDispaly.h */,
+				88A48CD81A5F326600948EF4 /* ErodingFilter.cpp */,
+				88A48CD91A5F326600948EF4 /* ErodingFilter.h */,
 			);
 			path = openctest2;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A48CDA1A5F326600948EF4 /* ErodingFilter.cpp in Sources */,
 				88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */,
 				88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */,
 				88A48CC51A5EF07100948EF4 /* main.cpp in Sources */,

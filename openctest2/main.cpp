@@ -10,14 +10,17 @@
 #include <opencv2/opencv.hpp>
 #include "VideoCapture.h"
 #include "ReadImageandFileDispaly.h"
-void ReadImageandFileDisplay();
+#include "ErodingFilter.h"
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
     //VideoCapture();
-    ReadImageandFileDispaly();
+    //ReadImageandFileDispaly();
+    ErodingFilter();
     return 0;
 }
 
