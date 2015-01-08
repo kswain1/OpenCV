@@ -10,6 +10,8 @@
 		88A48CC51A5EF07100948EF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CC41A5EF07100948EF4 /* main.cpp */; };
 		88A48CCE1A5EF1FD00948EF4 /* libopencv_core.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A48CCC1A5EF1FD00948EF4 /* libopencv_core.2.4.9.dylib */; };
 		88A48CCF1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A48CCD1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib */; };
+		88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD11A5F161700948EF4 /* VideoCapture.cpp */; };
+		88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,11 @@
 		88A48CC41A5EF07100948EF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		88A48CCC1A5EF1FD00948EF4 /* libopencv_core.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.2.4.9.dylib; sourceTree = "<group>"; };
 		88A48CCD1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.2.4.9.dylib; sourceTree = "<group>"; };
+		88A48CD01A5F15C600948EF4 /* VideoCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCapture.h; sourceTree = "<group>"; };
+		88A48CD11A5F161700948EF4 /* VideoCapture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoCapture.cpp; sourceTree = "<group>"; };
+		88A48CD41A5F1A5700948EF4 /* MyPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyPic.png; sourceTree = "<group>"; };
+		88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReadImageandFileDispaly.cpp; sourceTree = "<group>"; };
+		88A48CD61A5F1A8B00948EF4 /* ReadImageandFileDispaly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadImageandFileDispaly.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 		88A48CB81A5EF07100948EF4 = {
 			isa = PBXGroup;
 			children = (
+				88A48CD31A5F1A3000948EF4 /* Images */,
 				88A48CCB1A5EF17300948EF4 /* opencvFrameWork */,
 				88A48CC31A5EF07100948EF4 /* openctest2 */,
 				88A48CC21A5EF07100948EF4 /* Products */,
@@ -65,6 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				88A48CC41A5EF07100948EF4 /* main.cpp */,
+				88A48CD01A5F15C600948EF4 /* VideoCapture.h */,
+				88A48CD11A5F161700948EF4 /* VideoCapture.cpp */,
+				88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */,
+				88A48CD61A5F1A8B00948EF4 /* ReadImageandFileDispaly.h */,
 			);
 			path = openctest2;
 			sourceTree = "<group>";
@@ -76,6 +88,14 @@
 				88A48CCD1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib */,
 			);
 			name = opencvFrameWork;
+			sourceTree = "<group>";
+		};
+		88A48CD31A5F1A3000948EF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88A48CD41A5F1A5700948EF4 /* MyPic.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */,
+				88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */,
 				88A48CC51A5EF07100948EF4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
