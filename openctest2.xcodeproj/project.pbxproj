@@ -13,6 +13,9 @@
 		88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD11A5F161700948EF4 /* VideoCapture.cpp */; };
 		88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD51A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp */; };
 		88A48CDA1A5F326600948EF4 /* ErodingFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CD81A5F326600948EF4 /* ErodingFilter.cpp */; };
+		88A48CDD1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CDB1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp */; };
+		88A48CE01A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CDE1A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp */; };
+		88A48CE21A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A48CE11A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +42,11 @@
 		88A48CD61A5F1A8B00948EF4 /* ReadImageandFileDispaly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadImageandFileDispaly.h; sourceTree = "<group>"; };
 		88A48CD81A5F326600948EF4 /* ErodingFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ErodingFilter.cpp; sourceTree = "<group>"; };
 		88A48CD91A5F326600948EF4 /* ErodingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErodingFilter.h; sourceTree = "<group>"; };
+		88A48CDB1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoCaptureContrastChange.cpp; sourceTree = "<group>"; };
+		88A48CDC1A5F3C9E00948EF4 /* VideoCaptureContrastChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureContrastChange.h; sourceTree = "<group>"; };
+		88A48CDE1A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HistogramEquilizationGrayScale.cpp; sourceTree = "<group>"; };
+		88A48CDF1A60433D00948EF4 /* HistogramEquilizationGrayScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramEquilizationGrayScale.h; sourceTree = "<group>"; };
+		88A48CE11A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.2.4.9.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A48CE21A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib in Frameworks */,
 				88A48CCF1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib in Frameworks */,
 				88A48CCE1A5EF1FD00948EF4 /* libopencv_core.2.4.9.dylib in Frameworks */,
 			);
@@ -82,6 +91,10 @@
 				88A48CD61A5F1A8B00948EF4 /* ReadImageandFileDispaly.h */,
 				88A48CD81A5F326600948EF4 /* ErodingFilter.cpp */,
 				88A48CD91A5F326600948EF4 /* ErodingFilter.h */,
+				88A48CDB1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp */,
+				88A48CDC1A5F3C9E00948EF4 /* VideoCaptureContrastChange.h */,
+				88A48CDE1A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp */,
+				88A48CDF1A60433D00948EF4 /* HistogramEquilizationGrayScale.h */,
 			);
 			path = openctest2;
 			sourceTree = "<group>";
@@ -89,6 +102,7 @@
 		88A48CCB1A5EF17300948EF4 /* opencvFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				88A48CE11A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib */,
 				88A48CCC1A5EF1FD00948EF4 /* libopencv_core.2.4.9.dylib */,
 				88A48CCD1A5EF1FD00948EF4 /* libopencv_highgui.2.4.9.dylib */,
 			);
@@ -161,7 +175,9 @@
 			files = (
 				88A48CDA1A5F326600948EF4 /* ErodingFilter.cpp in Sources */,
 				88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */,
+				88A48CE01A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp in Sources */,
 				88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */,
+				88A48CDD1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp in Sources */,
 				88A48CC51A5EF07100948EF4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,13 +264,14 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -263,13 +280,14 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
