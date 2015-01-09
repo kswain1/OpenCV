@@ -16,6 +16,7 @@
 		88A48CDD1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CDB1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp */; };
 		88A48CE01A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CDE1A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp */; };
 		88A48CE21A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A48CE11A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib */; };
+		88A48CE51A60552D00948EF4 /* HistogramEquilizationColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A48CE31A60552D00948EF4 /* HistogramEquilizationColorImage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,8 @@
 		88A48CDE1A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HistogramEquilizationGrayScale.cpp; sourceTree = "<group>"; };
 		88A48CDF1A60433D00948EF4 /* HistogramEquilizationGrayScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramEquilizationGrayScale.h; sourceTree = "<group>"; };
 		88A48CE11A60513B00948EF4 /* libopencv_imgproc.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.2.4.9.dylib; sourceTree = "<group>"; };
+		88A48CE31A60552D00948EF4 /* HistogramEquilizationColorImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HistogramEquilizationColorImage.cpp; sourceTree = "<group>"; };
+		88A48CE41A60552D00948EF4 /* HistogramEquilizationColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramEquilizationColorImage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				88A48CDC1A5F3C9E00948EF4 /* VideoCaptureContrastChange.h */,
 				88A48CDE1A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp */,
 				88A48CDF1A60433D00948EF4 /* HistogramEquilizationGrayScale.h */,
+				88A48CE31A60552D00948EF4 /* HistogramEquilizationColorImage.cpp */,
+				88A48CE41A60552D00948EF4 /* HistogramEquilizationColorImage.h */,
 			);
 			path = openctest2;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				88A48CD21A5F161700948EF4 /* VideoCapture.cpp in Sources */,
 				88A48CE01A60433D00948EF4 /* HistogramEquilizationGrayScale.cpp in Sources */,
 				88A48CD71A5F1A8B00948EF4 /* ReadImageandFileDispaly.cpp in Sources */,
+				88A48CE51A60552D00948EF4 /* HistogramEquilizationColorImage.cpp in Sources */,
 				88A48CDD1A5F3C9E00948EF4 /* VideoCaptureContrastChange.cpp in Sources */,
 				88A48CC51A5EF07100948EF4 /* main.cpp in Sources */,
 			);

@@ -13,6 +13,7 @@
 #include "ErodingFilter.h"
 #include "VideoCaptureContrastChange.h"
 #include "HistogramEquilizationGrayScale.h"
+#include "HistogramEquilizationColorImage.h"
 
 
 
@@ -24,7 +25,9 @@ int main(int argc, const char * argv[]) {
     //ReadImageandFileDispaly();
     //ErodingFilter();
     //VideoCaptureContrastChange();
-    HistogramEquilizationGrayScale();
+   // HistogramEquilizationGrayScale();
+    HistogramEquilizationColorImage();
+    
     
     return 0;
 }
