@@ -14,10 +14,11 @@
 #include "VideoCaptureContrastChange.h"
 #include "HistogramEquilizationGrayScale.h"
 #include "HistogramEquilizationColorImage.h"
+#include "RedObjectTracking.h"
 
 
 
-int main(int argc, const char * argv[]) {
+int main(int argc, char ** argv) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
@@ -26,7 +27,8 @@ int main(int argc, const char * argv[]) {
     //ErodingFilter();
     //VideoCaptureContrastChange();
    // HistogramEquilizationGrayScale();
-    HistogramEquilizationColorImage();
+    //HistogramEquilizationColorImage();
+    RedObjectTracking();
     
     
     return 0;
